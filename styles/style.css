@@ -1,0 +1,62 @@
+* {
+  margin: 0px;
+  padding: 0px;
+}
+
+body {
+  text-align: center;
+  background-color: #5D6569;
+}
+
+header nav {
+  background-image: url("../images/nav-bg.jpg");
+  background-size: cover;
+}
+
+header nav ul li {
+  display: inline-block;
+  height: 4vh;
+  padding: 12px;
+  padding-left: 35px;
+  margin: 5px;
+}
+
+header nav ul li a {
+  color: #D6D6C8;
+  text-decoration: none;
+  font-size: 20px;
+  font-weight: bold;
+  font-family: 'ZCOOL QingKe HuangYou', cursive;
+}
+
+header nav ul li a:hover {
+  color: #68160D;
+}
+
+.main h1 {
+  color: #052018;
+  font-family: 'Arvo', serif;
+  font-size: 45px;
+  padding: 5px 0 5px 0;
+  text-shadow: 2px 2px 3px black;
+}
+
+.main img {
+  padding-top: 5px;
+  box-shadow: #5D6569 15px 15px 4px 4px;
+}
+
+.main .desc p {
+  font-size: 25px;
+  font-family: 'Amatic SC', cursive;
+  line-height: 10px;
+  padding-top: 45px;
+  padding-bottom: 25px;
+  font-weight: bold;
+  letter-spacing: 1px;
+}
+
+body button {
+  background-color: #5D6569;
+  color: #f9f9f9;
+}
