@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <!-- Open Graph Data is a metadata protocol that Facebook invented to provide richer metadata for websites -->
+    <meta property="og:description" content="My Portfolio is a website cotaining details of my own life.">
+    <meta property="og:title" content="My Portfolio">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="images/fav-icon1.png">
+    <title>My Portfolio</title>
+    <link href="https://fonts.googleapis.com/css?family=Amatic+SC|Spicy+Rice|Arvo|ZCOOL+QingKe+HuangYou" rel="stylesheet">
+    <style media="screen">
+      * {
+        margin: 0px;
+        padding: 0px;
+      }
+      h1 {
+        font-family: 'Spicy Rice', cursive;
+        color: white;
+        text-shadow: 2px 2px 3px black;
+      }
+
+      .nav {
+        display: block;
+        background-color: pink;
+        height: 30px;
+        width: 80%;
+        margin: 40px;
+        padding: 15px;
+      }
+
+      .nav ul {
+      }
+
+      .nav li {
+        list-style-type: none;
+        display: inline-block;
+        float: left;
+      }
+      .nav li a {
+        color: black;
+        font-family: monospace;
+        font-size: 18px;
+        margin: 15px;
+        padding: 35px;
+        text-decoration: none;
+      }
+
+      .button {
+        background-color: black;
+        color: white;
+        font-family: monospace;
+        width: 45px;
+      }
+
+      .section {
+        display: inline-block;
+        background-color: white;
+        width: 60%;
+        padding: 15px;
+        margin: 10px;
+      }
+
+      .aside {
+        display: inline-block;
+        height: 150px;
+        padding-top: 190px;
+        text-align: center;
+      }
+
+      .aside ul {
+      }
+
+      .aside ul li a {
+        font-family: monospace;
+      }
+
+      footer {
+        background-color: white;
+      }
+    </style>
+  </head>
+  <body style="background-color:#999; text-align:center;">
+    <header>
+      <h1>Header</h1>
+    </header>
+      <nav class="nav">
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="career.html">Career</a></li>
+          <li><a href="structure.html">Family</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+        <form action="index.html" method="post">
+          <input type="text" name="search" placeholder="Search query">
+          <input class="button" type="submit" name="submit" value="Go!">
+        </form>
+      </nav>
+      <main>
+        <article class="section">
+          <h2>Article heading</h2>
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+
+            <h3>subsection</h3>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+            <p>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+
+            <h3>Another subsection</h3>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+            <p>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+          </article>
+        <aside class="aside" style="background-color:pink;">
+          <h2>Related</h2>
+          <ul>
+            <li><a href="#">Oh I do like to be beside the seaside</a></li>
+            <li><a href="#">Oh I do like to be beside the sea</a></li>
+            <li><a href="#">Although in the North of England</a></li>
+            <li><a href="#">It never stops raining</a></li>
+            <li><a href="#">Oh well...</a></li>
+          </ul>
+        </aside>
+      </main>
+      <footer>
+      <p>©Copyright 2050 by nobody. All rights reversed.</p>
+      </footer>
+    <script type="text/javascript" src="scripts/main.js"></script>
+  </body>
+</html>
